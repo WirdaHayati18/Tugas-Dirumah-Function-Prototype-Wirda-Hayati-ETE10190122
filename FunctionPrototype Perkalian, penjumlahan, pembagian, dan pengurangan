@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+//Ini adalah Prototype Function
+void perkalian (int x, int y);
+void penjumlahan (int x, int y);
+void pembagian (int x, int y);
+void pengurangan (int x, int y);
+
+int main ( ) {
+	perkalian (500, 83);
+	penjumlahan (500, 35);
+	pembagian (500, 10);
+	pengurangan (500, 138);
+}
+
+//Function dengan Badan Function Lengkap
+void perkalian (int x, int y) {
+	cout << " Hasil perkalian : " << x * y << endl;
+}
+void penjumlahan (int x, int y) {
+	cout << " Hasil penjumlahan : " << x + y << endl;
+}
+void pembagian (int x, int y) {
+	cout << " Hasil pembagian : " << x / y << endl;
+}
+void pengurangan (int x, int y) {
+	cout << " Hasil pengurangan : " << x - y << endl;
+}
